@@ -1,0 +1,43 @@
+﻿FILE: PROCTOR Y DENSIDADES ZANJA.xlsx
+============================================================
+Sheets: ['INFORME1 (2)', 'INFORME', 'PROCTOR', 'DENSIDADES']
+
+--- PROCTOR Sheet ---
+Dimensions: A1:BG258
+
+Cells with content:
+  Row 1: B1=ENSAYO DE COMPACTACION PR, J1=MULTISERVICIOS VIVEL
+  Row 3: J3=[F]=INFORME!C2
+  Row 6: B6=Interesado:, J6=[F]=INFORME!C5
+  Row 7: B7=[F]=INFORME!A6, J7=[F]=INFORME!C6
+  Row 8: B8=Proyecto:, J8=[F]=INFORME!C7
+  Row 9: B9=Fecha:, J9=2025-10-01 00:00:00
+  Row 10: B10=Area de Trabajo:, J10=[F]=INFORME!C9
+  Row 13: B13=Norma y MÚtodo de Compact, L13=AASHTO T 180 C, T13=No. de capas:, Y13=5, AB13=No. de golpes por capa:, AI13=25
+  Row 14: B14=Volumen del Molde (cm3): , L14=944, T14=Peso del cilindro en gr., AD14=4275
+  Row 16: B16=Punto, N16=1, R16=2, V16=3, Z16=4, AD16=5
+  Row 17: B17=Molde No., L17=-, N17=1, R17=1, V17=1, Z17=1, AD17=1
+  Row 18: B18=Contenido de Humedad dese, L18=%, N18=[F]=N27/100, R18=[F]=R27/100, V18=[F]=V27/100, Z18=[F]=Z27/100, AD18=[F]=AD27/100
+  Row 19: B19=Contenido de Humedad Inic, L19=%, N19=[F]=N27/100, R19=[F]=N27/100, V19=[F]=N27/100, Z19=[F]=N27/100, AD19=[F]=R27/100
+  Row 20: B20=Contenido de humedad adic, L20=%, N20=[F]=IF(OR(N18="",N19=""),"",N18-N19), R20=[F]=IF(OR(R18="",R19=""),"",R18-R19), V20=[F]=IF(OR(V18="",V19=""),"",V18-V19), Z20=[F]=IF(OR(Z18="",Z19=""),"",Z18-Z19), AD20=[F]=IF(OR(AD18="",AD19=""),"",AD18-AD19), AH20=[F]=IF(OR(AH18="",AH19=""),"",AH18-AH19)
+  Row 21: B21=Peso de Muestra Inicial H, L21=g, N21=3000, R21=[F]=N21, V21=[F]=R21, Z21=[F]=V21, AD21=[F]=Z21
+  Row 22: B22=Peso de Muestra Inicial S, L22=g, N22=[F]=IF(OR(N19="",N21=""),"",N21/(1+N19)), R22=[F]=IF(OR(R19="",R21=""),"",R21/(1+R19)), V22=[F]=IF(OR(V19="",V21=""),"",V21/(1+V19)), Z22=[F]=IF(OR(Z19="",Z21=""),"",Z21/(1+Z19)), AD22=[F]=IF(OR(AD19="",AD21=""),"",AD21/(1+AD19)), AH22=[F]=IF(OR(AH19="",AH21=""),"",AH21/(1+AH19))
+  Row 23: B23=Volumen de agua adicional, L23=cc, N23=[F]=IF(OR(N20="",N22=""),"",N20*N22), R23=[F]=IF(OR(R20="",R22=""),"",R20*R22), V23=[F]=IF(OR(V20="",V22=""),"",V20*V22), Z23=[F]=IF(OR(Z20="",Z22=""),"",Z20*Z22), AD23=[F]=IF(OR(AD20="",AD22=""),"",AD20*AD22), AH23=[F]=IF(OR(AH20="",AH22=""),"",AH20*AH22)
+  Row 24: B24=Peso Suelo H·medo + Molde, L24=g, N24=[F]=+R24-91, R24=[F]=+V24-93, V24=6024, Z24=[F]=+V24-12, AD24=[F]=+Z24-9
+  Row 25: B25=Peso Suelo H·medo, L25=g, N25=[F]=IF(OR(N24="",$AD$14=""),"",(N24-$AD$14)), R25=[F]=IF(OR(R24="",$AD$14=""),"",(R24-$AD$14)), V25=[F]=IF(OR(V24="",$AD$14=""),"",(V24-$AD$14)), Z25=[F]=IF(OR(Z24="",$AD$14=""),"",(Z24-$AD$14)), AD25=[F]=IF(OR(AD24="",$AD$14=""),"",(AD24-$AD$14)), AH25=[F]=IF(OR(AH24="",$AD$14=""),"",(AH24-$AD$14))
+  Row 27: B27=CONTENIDO DE HUMEDAD VIA , L27=%, N27=[F]=R27-2.9, R27=[F]=V27-2.8, V27=12.5, Z27=[F]=V27+2.7, AD27=[F]=Z27+2.8, AH27=[F]=IF(OR(AH28="",AH29="",AH30=""),"",((AH28-AH29)/(A, AN27=[F]=N27, AO27=[F]=N32
+  Row 28: AN28=[F]=R27, AO28=[F]=R32
+  Row 29: AN29=[F]=V27, AO29=[F]=V32
+  Row 30: AN30=[F]=Z27, AO30=[F]=Z32
+  Row 31: B31=Peso unitario total (H·me, L31=g/cm│, N31=[F]=IF(OR(N25="",$L$14=""),"",(N25/$L$14)), R31=[F]=IF(OR(R25="",$L$14=""),"",(R25/$L$14)), V31=[F]=IF(OR(V25="",$L$14=""),"",(V25/$L$14)), Z31=[F]=IF(OR(Z25="",$L$14=""),"",(Z25/$L$14)), AD31=[F]=IF(OR(AD25="",$L$14=""),"",(AD25/$L$14)), AH31=[F]=IF(OR(AH25="",$L$14=""),"",(AH25/$L$14)), AN31=[F]=AD27, AO31=[F]=AD32
+  Row 32: B32=Peso unitario seco, gd, L32=g/cm│, N32=[F]=IF(OR(N27="",N31=""),"",N31/(N27+100)*100), R32=[F]=IF(OR(R27="",R31=""),"",R31/(R27+100)*100), V32=[F]=IF(OR(V27="",V31=""),"",V31/(V27+100)*100), Z32=[F]=IF(OR(Z27="",Z31=""),"",Z31/(Z27+100)*100), AD32=[F]=IF(OR(AD27="",AD31=""),"",AD31/(AD27+100)*100), AH32=[F]=IF(OR(AH27="",AH31=""),"",AH31/(AH27+100)*100), AN32=[F]=AH27, AO32=[F]=AH32
+  Row 33: B33=Peso unitario seco, gd, L33=lb/pie│, N33=[F]=IF(N32="","",(N32/0.01601846)), R33=[F]=IF(R32="","",(R32/0.01601846)), V33=[F]=IF(V32="","",(V32/0.01601846)), Z33=[F]=IF(Z32="","",(Z32/0.01601846)), AD33=[F]=IF(AD32="","",(AD32/0.01601846)), AH33=[F]=IF(AH32="","",(AH32*62.4295974))
+  Row 35: AB35=Clasificaci¾n
+  Row 36: AA36=LL =, AC36=NL, AE36=LP =, AG36=NP, AI36=IP =, AJ36=NIP
+  Row 38: AA38=SUCS, AO38=.
+  Row 39: AA39=Indice de grupo
+  Row 40: AA40=AASHTO, AQ40=w, AR40=PUS
+  Row 41: AA41=gt (g/cm│), AF41=[F]=V31, AQ41=0, AR41=[F]=AF42/1000
+  Row 42: AA42=gd ¾ptimo (kg/m│), AF42=[F]=V32*1000, AQ42=[F]=AF44*100, AR42=[F]=AR41
+  Row 43: AA43=gd ¾ptimo (lb/pie│), AF43=[F]=IF(OR(AF42=""),"",((AF42/16.01846)))
+  Row 44: AA44=w optima (%), AF44=[F]=V27/100, AL44= 

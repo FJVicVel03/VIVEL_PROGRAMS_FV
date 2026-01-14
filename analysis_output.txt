@@ -1,0 +1,157 @@
+﻿============================================================
+DENSIDADES SHEET - STRUCTURE ANALYSIS
+============================================================
+
+Row 1:
+   A1 [MANUAL]: DENSIDAD DE LOS SUELOS EN EL SITIO METODO ARENA- A
+   C1 [MANUAL]: MULTISERVICIOS VIVEL
+
+Row 2:
+   C2 [FORMULA]: =PROCTOR!J3
+
+Row 4:
+   A4 [MANUAL]: Interesado:
+   C4 [FORMULA]: =PROCTOR!J6
+
+Row 5:
+   A5 [FORMULA]: =PROCTOR!B7
+   C5 [FORMULA]: =PROCTOR!J7
+
+Row 6:
+   A6 [MANUAL]: Proyecto:
+   C6 [FORMULA]: =PROCTOR!J8
+
+Row 7:
+   A7 [MANUAL]: Area de Trabajo:
+   C7 [FORMULA]: =PROCTOR!J10
+
+Row 10:
+   A10 [MANUAL]: Prueba No.
+   D10 [MANUAL]: 1
+   E10 [MANUAL]: 2
+
+Row 11:
+   A11 [MANUAL]: Fecha de la prueba
+   D11 [MANUAL]: 2025-08-11 00:00:00
+   E11 [MANUAL]: 2025-08-18 00:00:00
+
+Row 12:
+   A12 [MANUAL]: Capa
+   D12 [FORMULA]: =C7
+   E12 [FORMULA]: =C7
+
+Row 13:
+   A13 [MANUAL]: Lado:
+   D13 [MANUAL]: DERECHO
+   E13 [MANUAL]: CENTRO
+
+Row 14:
+   A14 [MANUAL]: Profundidad de perforaci¾n (pulg)
+   D14 [MANUAL]: 4"
+   E14 [MANUAL]: 4"
+
+Row 15:
+   A15 [MANUAL]: Peso picn¾metro (1) (lb)
+   D15 [MANUAL]: 11.94
+   E15 [MANUAL]: 11.9
+
+Row 16:
+   A16 [MANUAL]: Peso picn¾metro (2) (lb)
+   D16 [FORMULA]: =+D15-0.81
+   E16 [FORMULA]: =+E15-0.79
+
+Row 17:
+   A17 [MANUAL]: Peso del embudo  (lb)
+   D17 [FORMULA]: =D15-D16
+   E17 [FORMULA]: =E15-E16
+
+Row 18:
+   A18 [MANUAL]: Peso picn¾metro (2) (lb)
+   D18 [FORMULA]: =D16
+   E18 [FORMULA]: =E16
+
+Row 19:
+   A19 [MANUAL]: Peso picn¾metro (3) (lb)
+   D19 [MANUAL]: 8.31
+   E19 [MANUAL]: 8.34
+
+Row 20:
+   A20 [MANUAL]: Peso arena total (lb)
+   D20 [FORMULA]: =D18-D19
+   E20 [FORMULA]: =E18-E19
+
+Row 21:
+   A21 [MANUAL]: Peso del embudo (lb)
+   D21 [FORMULA]: =D17
+   E21 [FORMULA]: =E17
+
+Row 22:
+   A22 [MANUAL]: Peso arena adentro (lb)
+   D22 [FORMULA]: =D20-D21
+   E22 [FORMULA]: =E20-E21
+
+Row 23:
+   A23 [MANUAL]: densidad de la arena (lb/pie│)
+   D23 [MANUAL]: 79.31
+   E23 [MANUAL]: 80.31
+
+Row 24:
+   A24 [MANUAL]: volumen del agujero cc.
+   D24 [FORMULA]: =D22/D23
+   E24 [FORMULA]: =E22/E23
+
+Row 25:
+   A25 [MANUAL]: Peso Bruto Humedol (PBH)
+   D25 [MANUAL]: 3.6
+   E25 [MANUAL]: 3.52
+
+Row 26:
+   A26 [MANUAL]: Tara lb
+   D26 [MANUAL]: 0.4
+   E26 [MANUAL]: 0.4
+
+Row 27:
+   A27 [MANUAL]: Peso Neto Humedo (PNH)  (lb)
+   D27 [FORMULA]: =D25-D26
+   E27 [FORMULA]: =E25-E26
+
+Row 28:
+   A28 [MANUAL]: Peso Unitario Humedo (PUH)  (lb)
+   D28 [FORMULA]: =D27/D24
+   E28 [FORMULA]: =E27/E24
+
+Row 29:
+   A29 [MANUAL]: Humedad de campo (%)
+   D29 [MANUAL]: 8.6
+   E29 [MANUAL]: 8.4
+
+Row 30:
+   A30 [MANUAL]: Peso Unitario Seco de campo  (lb)
+   D30 [FORMULA]: =D28/(D29+100)*100
+   E30 [FORMULA]: =E28/(E29+100)*100
+
+Row 31:
+   A31 [MANUAL]: Peso unitario seco de laboraorio  (lb)
+   D31 [FORMULA]: =PROCTOR!AF43
+   E31 [FORMULA]: =PROCTOR!AF43
+
+Row 32:
+   A32 [MANUAL]: de humedad ¾ptima de laboratorio (%)
+   D32 [FORMULA]: =PROCTOR!AF44
+   E32 [FORMULA]: =PROCTOR!AF44
+
+Row 33:
+   A33 [MANUAL]: Compactaci¾n (%)
+   D33 [FORMULA]: =(D30/D31)*100
+   E33 [FORMULA]: =(E30/E31)*100
+
+Row 34:
+   A34 [MANUAL]: Observaciones:
+   C34 [FORMULA]: =INFORME!A27
+
+Row 41:
+   A41 [MANUAL]: Realiz¾:
+   F41 [MANUAL]: Vo.Bo.
+
+Row 42:
+   A42 [MANUAL]: NoÚ Vicente Dub¾n
